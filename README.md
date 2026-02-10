@@ -1,0 +1,1 @@
+HyprRestore – A lightweight Hyprland utility to save and restore workspace sessions on login.
