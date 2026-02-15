@@ -10,10 +10,10 @@ def main() :
     command = sys.argv[1].lower()
 
     if command == "save" :
-        save.save_session()
+        save.saveSession()
 
     elif command == "restore" :
-        restore.restore_session()
+        restore.restoreSession()
 
     else :
         print(f"Unknown command: {command}")
