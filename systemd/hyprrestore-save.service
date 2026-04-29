@@ -1,0 +1,10 @@
+[Unit]
+Description=HyprRestore Snapshot Save
+
+[Service]
+ExecStart=/home/ysuovnii/hyprrestore/build/save
+WorkingDirectory=/home/ysuovnii/hyprrestore
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
