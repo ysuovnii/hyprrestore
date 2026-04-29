@@ -56,10 +56,10 @@ hyprrestore/
 ## Installation
 
 ### 1. Clone Repository
-
+- ⚠️ Recommended location: `~/.config`
 ```bash
-git clone https://github.com/ysuovnii/HyprRestore.git
-cd HyprRestore
+git clone https://github.com/ysuovnii/hyprrestore.git
+cd hyprrestore
 ```
 
 ### 2. Build the Project
