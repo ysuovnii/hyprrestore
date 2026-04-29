@@ -4,8 +4,8 @@ After=graphical-session.target
 
 [Service]
 Type=simple
-ExecStart=/home/ysuovnii/hyprrestore/build/restore
-WorkingDirectory=/home/ysuovnii/hyprrestore
+ExecStart=/home/ysuovnii/.config/hyprrestore/build/restore
+WorkingDirectory=/home/ysuovnii/.config/hyprrestore
 Restart=on-failure
 RestartSec=3
 

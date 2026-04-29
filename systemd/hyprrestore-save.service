@@ -2,8 +2,8 @@
 Description=HyprRestore Snapshot Save
 
 [Service]
-ExecStart=/home/ysuovnii/hyprrestore/build/save
-WorkingDirectory=/home/ysuovnii/hyprrestore
+ExecStart=/home/ysuovnii/.config/hyprrestore/build/save
+WorkingDirectory=/home/ysuovnii/.config/hyprrestore
 Restart=on-failure
 
 [Install]

@@ -7,7 +7,7 @@ using json = nlohmann::json;
 
 int main()
 {
-  string path = "../hyprrestore/snapshots/snapshot.json";
+  string path = "/home/ysuovnii/.config/snapshots/snapshot.json";
   ifstream file(path);
   if(!file)
   {
